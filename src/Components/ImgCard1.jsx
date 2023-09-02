@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-const ImgCard1 = () => {
+const ImgCard1 = (val) => {
   const [count, Setcount]=useState(0);
 
   const handleclick=()=>

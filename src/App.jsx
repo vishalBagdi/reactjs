@@ -2,7 +2,7 @@
 import './App.css';
 import NavBar from './Components/NavBar';
 import HomeCarousel from './Components/HomeCarousel';
-import HomeCard from './Components/HomeCard';
+// import HomeCard from './Components/HomeCard';
 import { useState,useEffect } from 'react';
 import ImgCard1 from './Components/ImgCard1';
 const nCard=(val)=>{
@@ -50,7 +50,7 @@ function App(){
           
         
       </div>
-      {/* <off/> */}
+      { <off/> }
       </div>
   );
       
